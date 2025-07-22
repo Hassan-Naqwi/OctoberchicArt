@@ -30,6 +30,7 @@
 
 label {
     display: none;
+    cursor: pointer;
 }
 
 body {
@@ -373,6 +374,7 @@ p {
     color: #ffffff;
     font-weight: 600;
     border-style: none;
+    cursor: pointer;
 }
 
 .btn:hover {

@@ -25,19 +25,24 @@
     }
 
     .dropdown {
-        display: inline-block;
+        display: block;
     }
 
     .dropdown-content {
         position: absolute;
-        background-color: #ffffff;
-        padding: 20px;
+        background-color: #1B1B1B;
+        box-shadow: 0px 0px 10px 10px #1b1b1b;
+        padding: 20px 0;
         left: 0;
-        display: none;
+        opacity: 0;
         top: 60px;
-        width: 100%;
-        padding-left: 20px;
         z-index: 9;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .dropdown-content li a:hover {
+        text-decoration: none;
     }
 
     .absolute {
@@ -64,6 +69,7 @@
 
     .dropdown-content li {
         padding: 0;
+
     }
 
     .dropdown-content div {
@@ -73,7 +79,7 @@
 
 
     .dropdown-content li a {
-        color: #212121;
+        color: #fff;
     }
 
     label {
@@ -81,6 +87,10 @@
     }
 
     #toggle:checked+label+.dropdown-content {
+        opacity: 1;
+    }
+
+    nav {
         display: block;
     }
 
@@ -258,20 +268,28 @@
 
     .dropdown-content {
         position: absolute;
-        background-color: #ffffff;
-        padding: 20px;
+        background-color: #1B1B1B;
+        box-shadow: -200px 20px 10px #1B1B1B;
+        padding: 20px 0;
         left: 0;
-        display: none;
+        opacity: 0;
         top: 60px;
         width: 100%;
-        padding-left: 20px;
         z-index: 9;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #toggle:checked+label+.dropdown-content {
+        opacity: 1;
+    }
+
+    nav {
+        display: block;
     }
 
     .absolute {
         margin-top: 20px;
         margin-left: 20px;
-
     }
 
     .wh {
@@ -301,16 +319,18 @@
 
 
     .dropdown-content li a {
-        color: #212121;
+        color: #fff;
+    }
+
+    .dropdown-content li a:hover {
+        text-decoration: none;
     }
 
     label {
         display: block;
     }
 
-    #toggle:checked+label+.dropdown-content {
-        display: block;
-    }
+
 
 
     .gap24 {
@@ -575,6 +595,10 @@
     .overlay2 img {
         width: 80px;
         height: 80px;
+    }
+
+    .gap24 {
+        gap: 20px;
     }
 
 }
