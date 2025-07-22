@@ -1,0 +1,498 @@
+@font-face {
+    font-family: Hergon Grotesk;
+    src: url(/assets/fonts/HergonGrotesk-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Hergon Grotesk;
+    src: url(/assets/fonts/HergonGrotesk-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Hergon Grotesk;
+    src: url(/assets/fonts/HergonGrotesk-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Hergon Grotesk;
+    src: url(/assets/fonts/HergonGrotesk-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Hergon Grotesk;
+    src: url(/assets/fonts/HergonGrotesk-Regular.ttf);
+    font-weight: 400;
+}
+
+label {
+    display: none;
+}
+
+body {
+    background-color: #1B1B1B;
+    margin: 0;
+    font-family: Hergon Grotesk;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* sections ---------------------------------------------------------------------------------- */
+.bg-f {
+    background: url(/assets/images/bg-f.png) no-repeat left;
+    background-size: contain;
+}
+
+.bge-2 {
+    background: url(/assets/images/bge-2.png) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.bge-3 {
+    background: url(/assets/images/bge-3.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg-ab1 {
+    background: url(/assets/images/bg-ab1.png) no-repeat top center;
+    background-size: cover;
+    padding: 123px 0;
+}
+
+.bg-ab {
+    background: url(/assets/images/bg-ab.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg-c {
+    background: url(/assets/images/bg-c.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg-hs {
+    background: url(/assets/images/Vector.png) no-repeat left;
+    background-size: contain;
+}
+
+.std3 {
+    background: url(/assets/images/std3.png) no-repeat left;
+    background-size: cover;
+}
+
+.std {
+    background: url(/assets/images/std.png) no-repeat left;
+    background-size: cover;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 0 20px;
+}
+
+p {
+    color: #E1E1E1;
+    line-height: 30px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.overlay {
+    border-radius: 32px;
+    box-shadow: 33px 34px 56px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    height: 150%;
+    width: 82%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.overlay2 {
+    border-radius: 32px;
+    box-shadow: 33px 34px 56px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.01);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    padding: 64px 100px;
+    z-index: -1;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.col4 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 29%;
+}
+
+.w-40 {
+    width: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.scale {
+    transition: 0.4s ease-in-out;
+}
+
+.scale:hover {
+    transform: scale(1.08);
+}
+
+.wh {
+    height: 500px;
+    width: 428px
+}
+
+.owl-stage {
+    padding: 10px;
+}
+
+#w-half-right {
+    width: 50%;
+    margin-left: auto;
+}
+
+.owl-carousel {
+    display: block;
+}
+
+
+
+/* colors ---------------------------------------------------------------------------- */
+
+.orange {
+    color: #FE6F27;
+}
+
+.grey {
+    color: #A8A8A8;
+}
+
+/* flex ------------------------------------------------------------------- */
+.flex {
+    display: flex !important;
+}
+
+.justifycenter {
+    justify-content: center;
+}
+
+.justifybetween {
+    justify-content: space-between;
+}
+
+.justifystart {
+    justify-content: start;
+}
+
+.justifyend {
+    justify-content: end;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+.justifyselfend {
+    justify-self: end;
+}
+
+.alignstart {
+    align-items: flex-start;
+}
+
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    column-gap: 18px;
+    column-count: 4;
+}
+
+.column img {
+    margin-bottom: 18px;
+}
+
+
+/* font-weight ------------------------------------------------------------ */
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+/* font-size ------------------------------------------------------------------*/
+.font72 {
+    font-size: 72px;
+}
+
+.font64 {
+    font-size: 64px;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font16 {
+    font-size: 16px !important;
+}
+
+/* gap ----------------------------------------------------------------------- */
+.gap16 {
+    gap: 16px;
+}
+
+.gap18 {
+    gap: 16px;
+}
+
+.gap24 {
+    gap: 24px;
+}
+
+.gap40 {
+    gap: 40px;
+}
+
+.gap62 {
+    gap: 62px;
+}
+
+.gap100 {
+    gap: 170px;
+}
+
+.gap229 {
+    gap: 229px;
+}
+
+/* margins ----------------------------------------------------------------------*/
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.mb-19 {
+    margin-bottom: 19px !important;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.mb-24 {
+    margin-bottom: 24px !important;
+}
+
+.mb-32 {
+    margin-bottom: 32px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mb-69 {
+    margin-bottom: 69px !important;
+}
+
+/* paddings ---------------------------------------------------------------------*/
+
+.pr-76 {
+    padding-right: 76px;
+}
+
+/* position ------------------------------------------------------------------ */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    transform: skewY(-5deg);
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.baw {
+    filter: grayscale(100%);
+    transform: skewY(-5deg);
+}
+
+/* button --------------------------------------------------------------------- */
+.btn {
+    background-color: #FE6F27;
+    padding: 16px 32px;
+    font-size: 18px;
+    border-radius: 16px;
+    box-shadow: 12px 12px 60px rgba(254, 111, 39, 0.2);
+    color: #ffffff;
+    font-weight: 600;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: transparent;
+    outline: 1px solid #FE6F27;
+    color: #FE6F27;
+}
+
+/* nav ----------------------------------------------------------------------- */
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 167px;
+}
+
+nav ul {
+    padding-left: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 37px 10px 37px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 37px;
+}
+
+footer ul {
+    padding-left: 0;
+    margin: 0;
+    width: fit-content;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 25px;
+    margin-top: 0;
+    width: fit-content;
+}
+
+footer ul:last-child {
+    margin-bottom: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.copywrite {
+    padding: 20px 0;
+    border-top: 1px solid #989898;
+    margin: 0;
+}
+
+form label {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+form div {
+    width: 48.9%;
+}
+
+form input[type='number'],
+input[type='text'],
+input[type='email'] {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    width: 98%;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+form input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#msg {
+    padding-bottom: 200px;
+    padding-right: 10px;
+}
+
+input[type='submit'] {
+    margin: 0 auto;
+}
+
+select {
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    padding-right: 90px;
+    margin-bottom: 48px;
+}
+
+select option {
+    background-color: #212121;
+}
